@@ -1,13 +1,15 @@
-public class Racket {
+public class Product {
     private String model;
     private String make;
     private float price;
-    public Racket() {
+    private String name;
+    private int customerID;
+    public Product() {
         this.price = 5000;
         this.model = "ACME Model";
         this.make = "ACME Make";
     }
-    public Racket(String make, String model, float price) {
+    public Product(String make, String model, float price) {
         this.price = price;
         this.model = model;
         this.make = make;
