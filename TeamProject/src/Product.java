@@ -20,27 +20,53 @@ public class Product {
     }
     
     public String getModel() {
+
         return model;
     }
 public void setModel(String model) {
-    this.model = model;
+
+        this.model = model;
 }
 public String getMake() {
-    return make;
+
+        return make;
 }
 public void setMake(String make) {
-    this.make = make;
+
+        this.make = make;
 }
     public float getPrice() {
+
         return price;
     }
     public void setPrice(float price) {
+
         this.price = price;
     }
-public String toString() {
-    return "Vehicle Details" + "\n" +
-            "Make : " + make + "," +
-            "Model : " + model + "," +
-            "Price : " + price ;
-}
-}
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getCustomerID() {
+        return customerID;
+    }
+
+    public void setCustomerID(int customerID) {
+        this.customerID = customerID;
+    }
+
+    public java.lang.String toString() {
+        return "Product{" +
+                "model='" + model + '\'' +
+                ", make='" + make + '\'' +
+                ", name='" + name + '\'' +
+                ", price=" + price +
+                ", customerID=" + customerID +
+                '}';
+    }
+
+
