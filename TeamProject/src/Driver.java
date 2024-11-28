@@ -9,19 +9,24 @@ public class Driver {
     }
     private void processOrder(){
         System.out.print("What do you want to buy, ball or racket?");
-        string numberProducts = input.nextLine();
-        if (numberProducts == ball){
+        String nameProducts = input.nextLine();
+        if (nameProducts == ball){
             System.out.println("What kind of ball do you want to buy, " +
                     "football, basketball or volleyball?")
         }
-        else if (numberProducts == racket) {
+        String nameBalls = input.nextLine();
+        else if (nameProducts == racket) {
             System.out.println("What kind of racket do you want to buy," +
                     "tennis racket, badminton racket or ping pong bat?")
         }
+        String nameRackets = input.nextLine();
 
-        if ( == football){
+        if (nameBalls == football){
             System.out.println("How many do you want to buy?")
         }
+        int i == input.nextInt();
+        for (i; i <= 10; )
+
         store = new Store(numberProducts);
 
         for (int i = 0; i < numberProducts; i++){
