@@ -22,10 +22,28 @@ public class Driver {
         String nameRackets = input.nextLine();
 
         if (nameBalls == football){
-            System.out.println("How many do you want to buy?")
+            System.out.println("A football is 200RMB. How many do you want to buy?")
         }
         int i == input.nextInt();
-        for (i; i <= 10; )
+        private float price;
+        public Product() {
+            this.price = 200;
+        }
+        public Product(float price){
+            this.price = price;
+        }
+        public float getPrice() {
+
+            return price;
+        }
+        public void setPrice(float price) {
+
+            this.price = price;
+        }
+        public java.lang.String toString() {
+            return "Product{" + "price=" + price + '}';
+        }
+            for (i; i <= 10; )
 
         store = new Store(numberProducts);
 
