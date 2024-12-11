@@ -43,7 +43,7 @@ public class Driver {
         public java.lang.String toString() {
             return "Product{" + "price=" + price + '}';
         }
-            for (i; i <= 10; )
+        System.out.println("You need to pay)
 
         store = new Store(numberProducts);
 
